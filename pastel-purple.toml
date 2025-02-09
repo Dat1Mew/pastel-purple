@@ -1,0 +1,37 @@
+format = """
+[░](#582f61)\
+[▒](#784185)\
+[▓](#9e58ad)\
+$username\
+[](bg:#ad3de0 fg:#cb71de)\ 
+$time\
+[](bg:#7b3de0 fg:#ad3de0)\ 
+$directory\
+[](fg:#7b3de0)
+[󱞩 ](fg:#ffffff)\
+"""
+
+add_newline = false
+
+[username]
+disabled = false
+show_always = true
+style_user = "bold bg:#cb71de"
+style_root = "bg:#9A348E"
+format = '[ $user ]($style)'
+
+[time]
+disabled = false
+time_format = "%I:%M %p" # Hour:Minute Format
+use_12hr = true
+style = "bold bg:#ad3de0"
+format = '[ $time ]($style)'
+
+[directory]
+style = "bold italic bg:#7b3de0"
+format = "[ $path ]($style)"
+truncation_length = 2
+home_symbol = " ~"
+truncation_symbol = "…/"
+
+# yes, its very basic.
