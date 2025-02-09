@@ -1,4 +1,4 @@
 # pastel-purple
 nerd shit. but now within the nerdshit
 
-![image](https://github.com/user-attachments/assets/96ed5f67-a59a-4531-8979-eaa5f6fe2b76)
+![image of prompt](https://github.com/user-attachments/assets/e0d638ab-975b-4e11-83b0-a59f7e4d04b9)
