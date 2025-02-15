@@ -28,7 +28,7 @@ style = "bold bg:#ad3de0"
 format = '[ $time ]($style)'
 
 [directory]
-style = "bold italic bg:#7b3de0"
+style = "bold bg:#7b3de0"
 format = "[ $path ]($style)"
 truncation_length = 2
 home_symbol = " ~"
