@@ -7,9 +7,13 @@ $username\
 $time\
 [](bg:#7b3de0 fg:#ad3de0)\ 
 $directory\
-[](fg:#7b3de0)
+[](fg:#7b3de0)\
+$fill\
+$character
 [󱞩 ](fg:#ffffff)\
 """
+
+
 
 add_newline = false
 
@@ -28,10 +32,18 @@ style = "bold bg:#ad3de0"
 format = '[ $time ]($style)'
 
 [directory]
-style = "bold bg:#7b3de0"
+style = "bold italic bg:#7b3de0"
 format = "[ $path ]($style)"
 truncation_length = 2
 home_symbol = " ~"
 truncation_symbol = "…/"
+
+[fill]
+symbol = ''
+style = 'bold dimmed'
+
+[character]
+success_symbol = '[ ](bold green)'
+error_symbol = '[ ](bold red)'
 
 # yes, its very basic.
